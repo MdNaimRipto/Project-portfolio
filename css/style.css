@@ -112,7 +112,7 @@ body{
     float: left;
     border-left: 7px solid orangered;
     height: 70%;
-    box-shadow: 7px -6px 20px 0px;
+    box-shadow: 10px 10px 40px gray;
     margin-left: 50px;
 }
 .box-one h1{
@@ -138,7 +138,7 @@ body{
     float: left;
     border-left: 7px solid #2600ff;
     height: 70%;
-    box-shadow: 7px -6px 20px 0px;
+    box-shadow: 10px 10px 40px gray;
     margin-left: 50px; 
 }
 .box-two h1{
@@ -158,4 +158,8 @@ body{
     width: 450px;
     line-height: 25px;
     padding-bottom:30px ;
+}
+footer{
+    text-align: center;
+    color: gray;
 }
