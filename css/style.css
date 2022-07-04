@@ -6,7 +6,7 @@ body{
 .top-banner{
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
-    height: 60px;
+    height: 680px;
 }
 .banner-intro{
     display: block;
@@ -37,7 +37,7 @@ body{
     padding: 12px 30px;
     font-weight: bold;
     color: white;
-    background-color: tomato;
+    background: linear-gradient(45deg, lightsalmon, tomato);
     border: 1px solid tomato;
     border-radius: 5px;
     font-size: 18px;
@@ -52,4 +52,110 @@ body{
 }
 .banner-image img{
     width: 100%;
+}
+.dream-big{
+    background-image: url(../images/dream-bg.png);
+    height: 425px;
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.dream-image{
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 50px 50px;
+
+}
+.dream-image img{
+    width:100%;
+}
+.dream-detail{
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 50px 30px;
+}
+.dream-detail h1{
+    font-size: 40px;
+}
+.dream-detail h3{
+    font-size: 20px;
+}
+.dream-detail p{
+    text-align: justify;
+    line-height: 25px;
+    color: gray;
+}
+.dream-detail button{
+    padding: 12px 30px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    border: 1px solid tomato;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: serif;
+}
+.experinces{
+    background-image: url(../images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    height: 515px;
+}
+.experinces h1{
+    font-size: 40px;
+}
+.box-one{
+    width: 40%;
+    display: block;
+    float: left;
+    border-left: 7px solid orangered;
+    height: 70%;
+    box-shadow: 7px -6px 20px 0px;
+    margin-left: 50px;
+}
+.box-one h1{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.box-one h3{
+    margin-left: 30px;
+    color: orange;
+}
+.box-one p{
+    margin-left: 30px;
+    color: gray;
+    text-align: justify;
+    width: 450px;
+    line-height: 25px;
+    padding-bottom:30px ;
+}
+.box-two{
+    width: 40%;
+    display: block;
+    float: left;
+    border-left: 7px solid #2600ff;
+    height: 70%;
+    box-shadow: 7px -6px 20px 0px;
+    margin-left: 50px; 
+}
+.box-two h1{
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.box-two h3{
+    margin-left: 30px;
+    color: orange;
+}
+.box-two p{
+    margin-left: 30px;
+    color: gray;
+    text-align: justify;
+    width: 450px;
+    line-height: 25px;
+    padding-bottom:30px ;
 }
