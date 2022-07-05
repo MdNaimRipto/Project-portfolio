@@ -43,6 +43,10 @@ body{
     font-size: 18px;
     font-family: serif;
 }
+.banner-button{
+    color: white;
+    text-decoration: none;
+}
 .banner-image{
     display: block;
     float: right;
